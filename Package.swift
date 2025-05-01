@@ -18,7 +18,10 @@ let package = Package(
     targets: [
         .target(
             name: "DKPhotoGallery",
-            dependencies: ["SwiftyGif", "SDWebImage"],
+            dependencies: [
+                .product(name: "SwiftyGif", package: "SwiftyGif"),
+                .product(name: "SDWebImage", package: "SDWebImage"),
+            ],
             path: "DKPhotoGallery"),
     ]
 )
