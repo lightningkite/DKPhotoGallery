@@ -1,16 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "SwiftyGif",
-        "repositoryURL": "https://github.com/kirualex/SwiftyGif.git",
-        "state": {
-          "branch": null,
-          "revision": "420d12cba8338b03993f73a72c1f6b70d5273cf2",
-          "version": "5.3.0"
-        }
+  "pins" : [
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "cac9a55a3ae92478a2c95042dcc8d9695d2129ca",
+        "version" : "5.21.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swiftygif",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kirualex/SwiftyGif.git",
+      "state" : {
+        "revision" : "420d12cba8338b03993f73a72c1f6b70d5273cf2",
+        "version" : "5.3.0"
+      }
+    }
+  ],
+  "version" : 2
 }
